@@ -1,0 +1,29 @@
+body{
+    font-family: 'Mulish', 'Arial', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: block;
+}
+button{
+    border: 0px;
+}
+.cross_line{
+    width: 56px;
+    size: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1310px;
+}
+.defult_button{
+    background: #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    color: #ffffff;
+}

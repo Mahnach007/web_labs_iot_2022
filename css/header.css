@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+}
+.header__nav ul{
+    display: flex;
+
+}
+.header__nav-item-home{
+    margin-top: 90px;
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1F1534;
+}
+.header__nav-item{
+    margin-top: 90px;
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+.header__nav-image{
+    margin-right: 512px;  
+    margin-top: 76px;
+}

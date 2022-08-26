@@ -1,0 +1,46 @@
+.container_intro{
+    display: flex;
+    margin-top: 210px;
+}
+.intro__inner{
+    width: 445px;
+    padding-top: 100px;
+    margin-left: 137px;
+}
+.intro__titel{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+.cross_line.left{
+    margin: initial;
+}
+.intro_paragraph{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+.intro_button{
+    margin-top: 45px;
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 60px;
+}
+.intro__image{
+    left:0;
+    size:90%;
+}
+.defult_button.outlined{
+    background: transparent;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    color:#458FF6;
+    font-weight: 700px;
+}
+.doted_image.intro{
+    position: absolute;
+    left: 88%;
+}
+
