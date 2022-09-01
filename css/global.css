@@ -17,8 +17,10 @@ button{
     border-radius: 10px;
 }
 .container{
-    margin: 0 auto;
-    max-width: 1310px;
+    width:100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
 .defult_button{
     background: #458FF6;
@@ -26,4 +28,15 @@ button{
     width: 200px;
     height: 56px;
     color: #ffffff;
+}
+
+@media screen and (max-width: 1170px) {
+    body{
+        text-align: center;
+    } 
+}
+@media screen and (max-width: 794px) {
+    body{
+        font-size: 16px;
+    } 
 }

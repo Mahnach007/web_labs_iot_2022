@@ -22,6 +22,8 @@
 }
 .container_hero{
     display: flex;
+    justify-content: center;
+    padding-top: 100px;
 
 }
 .hero{
@@ -32,6 +34,29 @@
 .hero__image{
     margin-left: 95px;
     margin-top: 84px;
-    size:90%;
 }
-
+@media screen and (max-width: 1170px) {
+    .container_hero{
+        display:flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .hero__inner{
+        margin-top: -70px;
+    }
+}
+@media screen and (max-width: 794px) {
+    .hero__image{
+        height:100%;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .hero_paragraph{
+        font-size: 15px;
+        
+    }
+    .hero__inner{
+        width: 100%;
+    }
+}

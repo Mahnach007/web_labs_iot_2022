@@ -9,16 +9,16 @@
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href='css/style.css' rel="stylesheet">
+    <script src="/web_labs_iot_2022/js/animation.js"></script>
 </head>
 
 <body>
-
     <section class="hero">
         <div class="container">
             <header class="header">
                 <img class="header__nav-image" src="./Images/logo.svg" alt="header logo">
                 <nav class="header__nav">
-                    <ul>
+                    <ul class="header__list">
                         <li class="header__nav-item-home"><a href="">Home</a></li>
                         <li class="header__nav-item"><a href="">Find a doctor</a></li>
                         <li class="header__nav-item"><a href="">Apps</a></li>
@@ -26,6 +26,11 @@
                         <li class="header__nav-item"><a href="">About us</a></li>
                     </ul>
                 </nav>
+                <div class="hamburger" onclick="myFunc()">
+                    <span class="bar"></span>
+                    <span class="bar " ></span>
+                    <span class="bar "></span>
+                </div>
             </header>
             <div class="container_hero">
                 <div class="hero__inner">
@@ -60,94 +65,99 @@
     </div>
     <section class="services">
         <div class="container">
-            <div class="container_services">
-                <div class="services__inner">
-                    <h1 class="services__title">Our services</h1>
-                    <hr class="cross_line">
-                    <p class="services_paragraph">We provide to you the best choiches for you. Adjust it to your
-                        health
-                        needs and make sure your undergo treatment <br> with our highly qualified doctors you
-                        can
-                        consult with us which type of service is suitable for your health</p>
-                    <div class="service_boxes">
-                        <div class="box">
-                            <div class="box_inner">
-                                <img class="box_image" src="./Images/Frame (1).svg" alt="box image">
-                                <h1 class="box_title">Search doctor</h1>
-                                <p class="box_paragraph">Choose your doctor from thousands<br> of specialist,
-                                    general,
-                                    and trusted <br>hospitals</p>
+            <div class="con">
+                <div class="container_services">
+                    <div class="services__inner">
+                        <h1 class="services__title">Our services</h1>
+                        <hr class="cross_line">
+                        <p class="services_paragraph">We provide to you the best choiches for you. Adjust it to your
+                            health
+                            needs and make sure your undergo treatment with our highly qualified doctors you
+                            can
+                            consult with us which type of service is suitable for your health</p>
+                        <div class="all_boxes">
+                            <div class="first_service_boxes">
+                                <div class="box">
+                                    <div class="box_inner">
+                                        <img class="box_image" src="./Images/Frame (1).svg" alt="box image">
+                                        <h1 class="box_title">Search doctor</h1>
+                                        <p class="box_paragraph">Choose your doctor from thousands<br> of specialist,
+                                            general,
+                                            and trusted <br>hospitals</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="box_inner">
+                                        <img class="box_image" src="./Images/Frame (2).svg" alt="box image">
+                                        <h1 class="box_title">Online pharmacy</h1>
+                                        <p class="box_paragraph">Buy your medicines with our mobile <br> application
+                                            with a
+                                            simple <br> delivery system</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="box_inner">
+                                        <img class="box_image" src="./Images/Frame (3).svg" alt="box image">
+                                        <h1 class="box_title">Consultation</h1>
+                                        <p class="box_paragraph">Free consultation with our trusted <br> doctors and get
+                                            the
+                                            best <br> recomendations</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second_service_boxes">
+                                <div class="box">
+                                    <div class="box_inner">
+                                        <img class="box_image" src="./Images/Frame (4).svg" alt="box image">
+                                        <h1 class="box_title">Details info</h1>
+                                        <p class="box_paragraph">Free consultation with our trusted <br> doctors and get
+                                            the
+                                            best<br>
+                                            recomendations</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="box_inner">
+                                        <img class="box_image" src="./Images/Frame.svg" alt="box image">
+                                        <h1 class="box_title">Emergency care</h1>
+                                        <p class="box_paragraph">You can get 24/7 urgent care for <br> yourself or your
+                                            children and
+                                            your<br>
+                                            lovely family</p>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="box_inner">
+                                        <img class="box_image" src="./Images/Frame (5).svg" alt="box image">
+                                        <h1 class="box_title">Tracking</h1>
+                                        <p class="box_paragraph">Track and save your medical history <br> and health
+                                            data
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="box">
-                            <div class="box_inner">
-                                <img class="box_image" src="./Images/Frame (2).svg" alt="box image">
-                                <h1 class="box_title">Online pharmacy</h1>
-                                <p class="box_paragraph">Buy your medicines with our mobile <br> application with a
-                                    simple <br> delivery system</p>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="box_inner">
-                                <img class="box_image" src="./Images/Frame (3).svg" alt="box image">
-                                <h1 class="box_title">Consultation</h1>
-                                <p class="box_paragraph">Free consultation with our trusted <br> doctors and get the
-                                    best <br> recomendations</p>
-                            </div>
-                        </div>
+                        <button class="defult_button outlined">Learn more</button>
                     </div>
-                    <div class="service_boxes">
-                        <div class="box">
-                            <div class="box_inner">
-                                <img class="box_image" src="./Images/Frame (4).svg" alt="box image">
-                                <h1 class="box_title">Details info</h1>
-                                <p class="box_paragraph">Free consultation with our trusted <br> doctors and get the
-                                    best<br>
-                                    recomendations</p>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="box_inner">
-                                <img class="box_image" src="./Images/Frame.svg" alt="box image">
-                                <h1 class="box_title">Emergency care</h1>
-                                <p class="box_paragraph">You can get 24/7 urgent care for <br> yourself or your
-                                    children and
-                                    your<br>
-                                    lovely family</p>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="box_inner">
-                                <img class="box_image" src="./Images/Frame (5).svg" alt="box image">
-                                <h1 class="box_title">Tracking</h1>
-                                <p class="box_paragraph">Track and save your medical history <br> and health data
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="defult_button outlined">Learn more</button>
+                    <img class="first_doted_img" src="./Images/element2.svg" alt="doted square">
+                    <img class="second_doted_img" src="./Images/element.svg" alt="footer logo">
                 </div>
-                <img class="doted" src="./Images/element2.svg" alt="doted square">
             </div>
     </section>
     <section class="end">
-        <div class="image">
-        </div>
-        <div class="container_footer">
-            <footer class="footer">
+        <img class="image1" src="./Images/element.svg" alt="footer logo">
+        <footer class="footer">
+            <div class="footer__container">
                 <img class="footer__nav-image" src="./Images/trafalgar.svg" alt="footer logo">
-                <div class="container">
-                    <img class="image1" src="./Images/element.svg" alt="footer logo">
-                    <nav class="footer__nav">
-                        <ul class="footer__list">
-                            <li class="footer__nav-item"><a href=""></a>Company</li>
-                            <li class="footer__nav-item"><a href=""></a>Region</li>
-                            <li class="footer__nav-item"><a href=""></a>Help</li>
-                        </ul>
-                    </nav>
-                </div>
-            </footer>
-        </div>
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__nav-item"><a href=""></a>Company</li>
+                        <li class="footer__nav-item"><a href=""></a>Region</li>
+                        <li class="footer__nav-item"><a href=""></a>Help</li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
     </section>
 </body>
 

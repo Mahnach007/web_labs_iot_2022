@@ -1,6 +1,7 @@
 .container_intro{
     display: flex;
     margin-top: 210px;
+    justify-content: center;
 }
 .intro__inner{
     width: 445px;
@@ -38,9 +39,51 @@
     border-radius: 55px;
     color:#458FF6;
     font-weight: 700px;
+
+}
+.defult_button.outlined:hover{
+    background-color: #458FF6;
+    color: white;
+    transition: 0.7s all ease;
+}
+.defult_button.outlined::before{
+    content: "";
+    background-color: #458FF6;
+    color: white;
+    transition: 0.5s all ease;
 }
 .doted_image.intro{
     position: absolute;
     left: 88%;
 }
-
+@media screen and (max-width: 1440px) {
+    .doted_image.intro{
+        display: none;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .container_intro{
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .intro__inner{
+        align-items: center;
+    }
+    .cross_line.left{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 794px) {
+    .intro__image{
+        height:100%;
+        width: 100%;
+    }
+    .intro_paragraph{
+        font-size: 15px;
+    }
+    .intro__inner{
+        margin: auto;
+        width: 100%;
+    }
+}
